@@ -1,0 +1,63 @@
+{
+  "invalidNames": [
+    "",
+    "   ",
+    "A",
+    "Ab",
+    "123",
+    "!@#$",
+    "Name123",
+    "Name!@#",
+    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  ],
+  "invalidLastNames": [
+    "",
+    "   ",
+    "B",
+    "Bc",
+    "456",
+    "%^&*",
+    "LastName456",
+    "LastName$%^",
+    "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  ],
+  "invalidEmails": [
+    "",
+    "   ",
+    "invalid",
+    "invalid@",
+    "@invalid.com",
+    "invalid.com",
+    "invalid@.com",
+    "invalid@com",
+    "invalid..email@test.com",
+    "invalid email@test.com"
+  ],
+  "invalidPasswords": [
+    "",
+    "   ",
+    "123",
+    "abc",
+    "ABC",
+    "12345678",
+    "abcdefgh",
+    "ABCDEFGH",
+    "Abc123",
+    "Abc123!@#$%^&*()_+{}|:<>?[]\\;'\",./"
+  ],
+  "invalidRepeatPasswords": [
+    "",
+    "   ",
+    "differentPassword",
+    "DifferentPassword123!",
+    "12345678901234567890"
+  ],
+  "validData": {
+    "name": "Yulia",
+    "lastName": "Kom",
+    "emailPrefix": "Yulia",
+    "emailDomain": "@gmail.com",
+    "password": "ValidPass123!",
+    "repeatPassword": "ValidPass123!"
+  }
+}
