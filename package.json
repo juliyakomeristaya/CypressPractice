@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:reporter": "cypress run --reporter mochawesome",
+    "test:config2reporter": "cypress run --reporter mochawesome --config-file cypress.second.config.js",
+    "test:config2open": "npx cypress open --config-file cypress.second.config.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "cypress": "^14.5.4"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.3.0"
   }
 }
