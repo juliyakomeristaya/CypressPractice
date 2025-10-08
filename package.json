@@ -7,17 +7,20 @@
     "test:open": "cypress open",
     "test:reporter": "cypress run --reporter mochawesome",
     "test:config2reporter": "cypress run --reporter mochawesome --config-file cypress.second.config.js",
-    "test:config2open": "npx cypress open --config-file cypress.second.config.js"
+    "test:config2open": "npx cypress open --config-file cypress.second.config.js",
+    "format": "prettier --write '**/*.{js,ts,tsx}'"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cypress": "^14.5.4"
+    "cypress": "^14.5.4",
+    "cypress-plugin-api": "^2.11.2"
   },
   "devDependencies": {
     "mochawesome": "^7.1.4",
     "mochawesome-merge": "^5.0.0",
-    "mochawesome-report-generator": "^6.3.0"
+    "mochawesome-report-generator": "^6.3.0",
+    "prettier": "^3.6.2"
   }
 }
